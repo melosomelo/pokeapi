@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+import Routes from "./routes";
+
+import Layout from "./containers/Layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Go on :)</h1>
-    </div>
+    <Layout>
+      <Routes />
+    </Layout>
   );
 }
 
