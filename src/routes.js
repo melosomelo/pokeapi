@@ -7,6 +7,7 @@ import Index from "./views/Index/Index";
 import Login from "./views/Login/Login";
 import Pokemons from "./views/Pokemons/Pokemons";
 import PokemonDetails from "./views/PokemonDetails/PokemonDetails";
+import Types from "./views/Types/Types";
 
 //custom route to deal with private pages
 function CustomRoute({ isPrivate, ...rest }) {
@@ -31,6 +32,9 @@ export default function Routes() {
       </CustomRoute>
       <CustomRoute exact path="/pokemons">
         <Pokemons />
+      </CustomRoute>
+      <CustomRoute exact path="/types">
+        <Types />
       </CustomRoute>
 
       <CustomRoute
