@@ -42,6 +42,7 @@ function Types() {
   const onTypeButtonClick = async (event) => {
     setLoading(true);
     setShowPopup(true);
+    document.querySelector("body").classList.add("no-scroll");
     const targetType = event.target.getAttribute("data-type");
     const { data } = await axios.get(`/type/${targetType}`);
     console.log(data);
@@ -76,6 +77,7 @@ function Types() {
 
   const closePopup = () => {
     setShowPopup(false);
+    document.querySelector("body").classList.remove("no-scroll");
   };
 
   return (
