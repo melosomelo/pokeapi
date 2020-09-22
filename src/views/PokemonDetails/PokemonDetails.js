@@ -69,7 +69,7 @@ function PokemonDetails(props) {
       }));
       setLoading(false);
     })();
-  }, [name, pokemonData.name, pokemonData.sprites.front_default]);
+  }, [name, pokemonData.name, pokemonData.sprites?.front_default]);
 
   if (loading) {
     return (
