@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c206eaa.chunk.css",
+    "main.js": "/static/js/main.109a88ff.chunk.js",
+    "main.js.map": "/static/js/main.109a88ff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9623d853.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9623d853.js.map",
+    "static/js/2.b0ad7fff.chunk.js": "/static/js/2.b0ad7fff.chunk.js",
+    "static/js/2.b0ad7fff.chunk.js.map": "/static/js/2.b0ad7fff.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.242aee1c6f15d8f56d7d119a25f593c0.js": "/precache-manifest.242aee1c6f15d8f56d7d119a25f593c0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6c206eaa.chunk.css.map": "/static/css/main.6c206eaa.chunk.css.map",
+    "static/js/2.b0ad7fff.chunk.js.LICENSE.txt": "/static/js/2.b0ad7fff.chunk.js.LICENSE.txt",
+    "static/media/close-icon.svg": "/static/media/close-icon.3e157548.svg",
+    "static/media/logo.png": "/static/media/logo.437f1ba2.png",
+    "static/media/menu-icon.svg": "/static/media/menu-icon.12e8b34c.svg",
+    "static/media/pokeball.svg": "/static/media/pokeball.00e50e53.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9623d853.js",
+    "static/js/2.b0ad7fff.chunk.js",
+    "static/css/main.6c206eaa.chunk.css",
+    "static/js/main.109a88ff.chunk.js"
+  ]
+}
